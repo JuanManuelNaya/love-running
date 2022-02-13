@@ -185,3 +185,31 @@ hr{
     height: 100%; /*We need to give the div a height or the image won't show up */
     border-radius: 50%; /*To make the image round */
 }
+
+/* Event times */
+
+#times {
+    background-image: url("../images/dublin-city.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%; /* ya que son 5 divs 100/5 = 20% */
+    height: 300px;/* half the size sections obove it*/
+    float: left; /* so they display horizontally within the flow of the page*/
+    padding: 30px 0 0 10px; /*Padding 30px top 10px left , clockwise order px order*/
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box; /* This tells the browser to include the border widthin the toal size of this element so now is 20% width including the border */
+
+}
+
+#times h2{ /* targeting only child elemet h2 from parent times*/
+    color: #fafafa;
+}
