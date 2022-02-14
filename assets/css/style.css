@@ -278,9 +278,17 @@ footer{
         padding: 0; /* clear any padding at desktop level*/
     }
 
+    #times > div{ /* style for the meeting times child div from parent id="times"*/
+        width: 100%;
+        clear: both; /* stack the times on top of eacth other*/
+        height: 150px; /* to maintain sizing ratios of the main structural page elements */
+        padding: 0; /* to clean any desktop level padding*/
+    }
+
     hr{
         display: none;
     }
+
 }
 
 /* For medium screen sizes from 950px wide and down / phones*/
