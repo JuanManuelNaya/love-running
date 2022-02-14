@@ -248,3 +248,37 @@ footer{
 #photos > img { /* targeteo las imagenes child del partent class photos*/
     width: 100%;  /*Algunas imagenes eran muy chicas o grandes para las columnas, esto se arregla de esta forma para que entren todas */
 }
+
+/* Media queries / Para poder verlo en distintos dispositivos */
+
+/*For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px){ 
+    #club-ethos{
+        width: 65%; /* narrow vertical design for tablet viewing*/
+        height: 1200px; /* to accommodate the vertical layout and also maintain the site structural ratios*/
+        margin: 0 auto; /* center content */
+    }
+    
+    #welcome{
+        padding: 30px 0; /*we change padding to keep balance between welcome message and the man image above */
+        margin: 0; /*to clean up vertical gap */
+    }
+
+    #left-about, #right-about{
+        width: 100%;
+        float: left;
+        padding: 0; /* to override any default desktop level padding*/
+
+    }
+    
+    #center-about{ 
+        clear: both; /*center about image below the text  content */
+        width: 100%;
+        float: left;
+        padding: 0; /* clear any padding at desktop level*/
+    }
+
+    hr{
+        display: none;
+    }
+}
