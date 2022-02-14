@@ -293,4 +293,28 @@ footer{
         margin-bottom: 20px;
         line-height: 25px; /* To produce a balanced space between the logo above and the main image below*/
     }
+
+    #cover-text{
+        left: 0; /* align the left edge od the cover-text flush with the left screen edge */
+    }
+
+    #club-ethos{
+        width: 90%; /* width for phones*/
+        height: 1200px;
+        margin: 0 auto; /* center content*/
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit; /* inherit from father club-ethos*/
+    }
+
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px; /* set left and right padding to 20px*/
+    }
 }
