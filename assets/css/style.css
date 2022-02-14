@@ -251,7 +251,7 @@ footer{
 
 /* Media queries / Para poder verlo en distintos dispositivos */
 
-/*For larger to medium screens size from 1200px wide and down */
+/*For larger to medium screens size from 1200px wide and down / tablets */
 @media screen and (max-width: 1200px){ 
     #club-ethos{
         width: 65%; /* narrow vertical design for tablet viewing*/
@@ -280,5 +280,17 @@ footer{
 
     hr{
         display: none;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down / phones*/
+
+@media screen and (max-width: 950px){
+    #menu{ /* push menu below and left of our logo*/
+        clear: left;
+        float: left;
+        margin-left: 30px; /* some space between navigation elements and the left edge of the screen*/
+        margin-bottom: 20px;
+        line-height: 25px; /* To produce a balanced space between the logo above and the main image below*/
     }
 }
