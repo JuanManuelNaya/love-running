@@ -213,3 +213,25 @@ hr{
 #times h2{ /* targeting only child elemet h2 from parent times*/
     color: #fafafa;
 }
+
+/* Footer */
+
+footer{
+    height: 150px;
+
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i{  /* To target and style the icons , so the "i" is to target icons , i want the i elements of class social-networks*/
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#3a3a3a;
+}
