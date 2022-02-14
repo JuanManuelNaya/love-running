@@ -235,3 +235,16 @@ footer{
     padding: 5%;
     color:#3a3a3a;
 }
+
+/* photo gallery styling*/
+
+#photos{
+    clear: both; /* so that photo section and its contents displays below the header*/
+    line-height: 0; /* this is in order to remove any horizontal gaps bwtween the images*/
+    column-count: 4; /* we put everything in columns*/
+    column-gap: 0; /* to eliminate any vertical gap */
+}
+
+#photos > img { /* targeteo las imagenes child del partent class photos*/
+    width: 100%;  /*Algunas imagenes eran muy chicas o grandes para las columnas, esto se arregla de esta forma para que entren todas */
+}
